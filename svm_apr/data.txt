@@ -1,0 +1,37 @@
+3.2.a
+a)sv_coef= Multiplicadores de Lagrange
+[  0.87472	indice 1
+   0.74989	indice 4
+  -1.62461]	indice 5
+
+
+b)SVs= Vectores soporte
+[1, 4
+ 4, 2
+ 3, 4]
+
+c)theta(t) = (-1,-1.5) Vector de pesos
+theta0(t0) = 8 Humbral
+
+d) Margen(m) = 1.1097
+
+3.2.b
+
+a)sv_coef= Multiplicadores de Lagrange
+[ 250.87	indice 1
+  500.75	indice 4
+  1000.00	indice 9
+ -751.62	indice 5
+ -1000.00]	indice 10
+
+b)Svs= Vectores soporte
+[ 1,4
+  4,3
+  4,4
+  2,4
+  4,3]
+
+c) theta(t) = (-1,-1.5) Vector de pesos
+   theta0(t0) = 8 Humbral
+
+d) Margen(m) = 1.1097

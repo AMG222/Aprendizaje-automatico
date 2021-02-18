@@ -1,0 +1,19 @@
+./svm-exp.m train-images-idx3-ubyte.mat.gz train-labels-idx1-ubyte.mat.gz "[1 10 100]" "[1]" "[1 2 3 4 5]" 90 10
+
+C=1 t=1 d=1 error= 7.9%
+C=1 t=1 d=2 error= 1.95%
+C=1 t=1 d=3 error= 2.1167%
+C=1 t=1 d=4 error= 2.6667%
+C=1 t=1 d=5 error= 3.5667%
+
+C=10 t=1 d=1 error= 8.1167%
+C=10 t=1 d=2 error= 1.95%
+C=10 t=1 d=3 error= 2.1167%
+C=10 t=1 d=4 error= 2.6667%
+C=10 t=1 d=5 error= 3.5667%
+
+C=100 t=1 d=1 error= 8.1%
+C=100 t=1 d=2 error= 1.95%
+C=100 t=1 d=3 error= 2.1167%
+C=100 t=1 d=4 error= 2.6667%
+C=100 t=1 d=5 error= 3.5667%

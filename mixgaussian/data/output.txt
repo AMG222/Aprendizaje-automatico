@@ -1,0 +1,70 @@
+pca+mixgaussian.m k=[1 2 5 10 20 50 100] alpha=[1e-4] dimensiones pca=[1 2 5 10 20 50 100] 90 10 del proyecto de percepcion sabemos que el mejor valor de alpha es 1e-4
+./pca+mixgaussian-exp.m train-images-idx3-ubyte.mat.gz train-labels-idx1-ubyte.mat.gz "[1 2 5 10 20 50 100]" "[1e-4]" "[1 2 5 10 20 50 100]" 90 10
+k	dimensiones	Yerror
+1	1		69.40%
+1	2		55.03%
+1	5		28.33%
+1	10		11.82%
+1	20		6.17%
+1	50		4.68%
+1	100		4.27%
+
+2	1		71.57%
+2	2		59.40%
+2	5		27.73%
+2	10		10.55%
+2	20		5.35%
+2	50		3.80%
+2	100		3.58%
+
+5	1		75.25%
+5	2		60.38%
+5	5		28.68%
+5	10		9.78%
+5	20		4.35%
+5	50		3.10%
+5	100		2.97%
+
+10	1		78.37%
+10	2		61.20%
+10	5		29.55%
+10	10		9.13%
+10	20		4.18%
+10	50		2.60%
+10	100		2.52%
+
+20	1		78.03%
+20	2		61.65%
+20	5		32.08%
+20	10		8.92%
+20	20		3.62%
+20	50		2.33%
+20	100		2.15%
+
+50	1		75.92%
+50	2		63.92%
+50	5		31.38%
+50	10		7.78%
+50	20		3.22%
+50	50		1.83%
+50	100		1.60%
+
+100	1		76.17%
+100	2		64.25%
+100	5		31.00%
+100	10		7.67%
+100	20		2.52%
+100	50		1.67%
+100	100		1.85%
+
+
+
+Mejor con k=100 y dim=50 alpha=1e-4  error = 1.62%
+
+Valor optenido con 1 gaussiano en Percepción 4.18% / Por MNIST 3.3%
+
+Valor obtenido por MNIST la gaussiana kernel con svm es 1.4% 
+aunque esta hecha con la tecnica de vectores soporte emplea
+el kernel gausiano por lo tanto es lo mas cercano tanto
+teoricamente como experimental mente dado que la diferencia
+de error es solo de un 0.22%

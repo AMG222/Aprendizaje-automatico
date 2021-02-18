@@ -1,0 +1,62 @@
+> octave pca+mlp-exp.m train-images-idx3-ubyte.mat.gz train-labels-idx1-ubyte.mat.gz "[1 2 5 10 20 30 40 50]" "[1 2 5 10 20 30]" 40 10
+
+Capas ocultas:   1 | PCA dim:   1 | Error: 69.317%
+Capas ocultas:   2 | PCA dim:   1 | Error: 69.233%
+Capas ocultas:   5 | PCA dim:   1 | Error: 69.450%
+Capas ocultas:  10 | PCA dim:   1 | Error: 80.783%
+Capas ocultas:  20 | PCA dim:   1 | Error: 69.533%
+Capas ocultas:  30 | PCA dim:   1 | Error: 69.800%
+Capas ocultas:  40 | PCA dim:   1 | Error: 84.383%
+Capas ocultas:  50 | PCA dim:   1 | Error: 84.733%
+
+Capas ocultas:   1 | PCA dim:   2 | Error: 72.000%
+Capas ocultas:   2 | PCA dim:   2 | Error: 57.383%
+Capas ocultas:   5 | PCA dim:   2 | Error: 53.550%
+Capas ocultas:  10 | PCA dim:   2 | Error: 67.333%
+Capas ocultas:  20 | PCA dim:   2 | Error: 63.050%
+Capas ocultas:  30 | PCA dim:   2 | Error: 52.900%
+Capas ocultas:  40 | PCA dim:   2 | Error: 53.150%
+Capas ocultas:  50 | PCA dim:   2 | Error: 53.183%
+
+Capas ocultas:   1 | PCA dim:   5 | Error: 69.550%
+Capas ocultas:   2 | PCA dim:   5 | Error: 52.200%
+Capas ocultas:   5 | PCA dim:   5 | Error: 32.800%
+Capas ocultas:  10 | PCA dim:   5 | Error: 27.767%
+Capas ocultas:  20 | PCA dim:   5 | Error: 25.183%
+Capas ocultas:  30 | PCA dim:   5 | Error: 24.367%
+Capas ocultas:  40 | PCA dim:   5 | Error: 24.100%
+Capas ocultas:  50 | PCA dim:   5 | Error: 89.617%
+
+Capas ocultas:   1 | PCA dim:  10 | Error: 67.617%
+Capas ocultas:   2 | PCA dim:  10 | Error: 45.017%
+Capas ocultas:   5 | PCA dim:  10 | Error: 23.583%
+Capas ocultas:  10 | PCA dim:  10 | Error: 14.100%
+Capas ocultas:  20 | PCA dim:  10 | Error: 10.333%
+Capas ocultas:  30 | PCA dim:  10 | Error:  9.067%
+Capas ocultas:  40 | PCA dim:  10 | Error:  8.433%
+Capas ocultas:  50 | PCA dim:  10 | Error:  8.200%
+
+Capas ocultas:   1 | PCA dim:  20 | Error: 66.050%
+Capas ocultas:   2 | PCA dim:  20 | Error: 41.317%
+Capas ocultas:   5 | PCA dim:  20 | Error: 16.750%
+Capas ocultas:  10 | PCA dim:  20 | Error:  9.967%
+Capas ocultas:  20 | PCA dim:  20 | Error:  6.817%
+Capas ocultas:  30 | PCA dim:  20 | Error:  5.317%
+Capas ocultas:  40 | PCA dim:  20 | Error:  5.400%
+Capas ocultas:  50 | PCA dim:  20 | Error:  5.500% (30 10)
+
+Capas ocultas:   1 | PCA dim:  30 | Error: 67.483%
+Capas ocultas:   2 | PCA dim:  30 | Error: 45.517%
+Capas ocultas:   5 | PCA dim:  30 | Error: 14.833%
+Capas ocultas:  10 | PCA dim:  30 | Error:  9.083%
+Capas ocultas:  20 | PCA dim:  30 | Error:  7.183%
+Capas ocultas:  30 | PCA dim:  30 | Error:  5.850%
+Capas ocultas:  40 | PCA dim:  30 | Error:  6.217% (30 10)
+Capas ocultas:  50 | PCA dim:  30 | Error:  5.867% (25 10)
+
+(*) Todos se han realizado con un 40% de entrenamiento y 10% de evaluación
+excepto los que se indique lo contrario como (30 10) quiere decir 30% entrenamiento
+10% evalucaion
+
+Sobre el eva
+Capas ocultas:  30 | PCA dim:  20 | Error:  4.970%
